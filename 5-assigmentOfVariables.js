@@ -14,6 +14,11 @@ console.log(firstName);
 //js is interpreted, has no compile-time errors
 //change of state in programming makes it difficult to find errors so it is a good practice to keep constants instead of variables
 
-const fullName = firstName + surname;
+const fullName = firstName + surname; //constant declaration and value assignment on the same line
 console.log(fullName);
 fullName = 2;
+
+let variableAge; //declaration 
+variableAge = 26; //value assignment
+variableAge = variableAge + 1;
+console.log(variableAge);
