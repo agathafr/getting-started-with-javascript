@@ -18,3 +18,7 @@ listOfDestinations.push( //adds items to the list
 console.log("Possible destinations");
 //console.log(salvador, saoPaulo, rioDeJaneiro);
 console.log(listOfDestinations);
+
+listOfDestinations.splice(1, 1);
+console.log(listOfDestinations);
+console.log(listOfDestinations[1], listOfDestinations[0]);
