@@ -2,10 +2,10 @@ console.log(" \n Working with conditionals");
 
 const listOfDestinations = new Array(`Salvador`, `Sao Paulo`, `Rio de Janeiro`);
 
-const ageOfBuyer = 18;
+const ageOfBuyer = 15;
 const isAccompanied = false;
 let hasPurchasedTicket = false;
-const destination = "Salvador";
+const destination = "Curitiba";
 
 console.log(" \n Possible destinations:");
 console.log(listOfDestinations);
@@ -24,3 +24,16 @@ while (count < 3) {
 }
 
 console.log("Existing destination: ", destinyExists);
+
+if (canBuy && destinyExists) {
+  console.log("Good trip!");
+} else {
+  console.log("Sorry, we had a mistake!");
+}
+
+for (let i = 0; i < 3 ; i++) {
+  if (listOfDestinations[i] == destination) {
+    destinyExists = true;
+    break;
+  }
+}
